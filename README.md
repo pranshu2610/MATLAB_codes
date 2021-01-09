@@ -11,7 +11,7 @@
 | Simulation Lab | MATLAB, Simulink, LabView | ⚠️ |
 
 ### How to Contribute?
-Send a Pull Request if 
+Send a Pull Request to 
 * add a missing program
 * add am entire new Lab folder
 * correct the existing program
