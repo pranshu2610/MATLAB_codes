@@ -1,0 +1,20 @@
+figure right click -> charachteristics -> options
+Edit -> figure properties
+
+Calculate theoritical time analysis and compare with simulation
+find error 
+
+
+The output of the system takes some finite time to reach to its final value. Every system has a tendency to oppose the oscillatory behaviour of the system which is called damping. The damping is measured by a factor called damping ratio of the system. If the damping is very high then there will be any oscillations in the output. The output is purely exponential. Such system is called an over damped system.
+If the damping is less compared to over damped case then the system is called a critically damped system. If the damping is very less than then the system is called under damped system. With no damping system is undamped.
+
+Open the MATLAB command window
+1. Click on file-new M file to open the MATLAB editor window
+2. In the given MATLAB editor window enter the program to obtain the step response
+
+3. Save the file in work directory 
+4. Run the program and enter the respective value for natural frequency, damping ration and time
+5. The graphs displayed are according to the above values
+6. The values of wd, td, theta, tr ts, Mp can be obtained by
+	a) Right click on the figure window and select
+

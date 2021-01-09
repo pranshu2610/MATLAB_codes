@@ -1,0 +1,4 @@
+Taks fdm = 4times the fm
+
+in DM always use +1 and -1 in quantizer
+in encoder use 1 and 0

@@ -1,0 +1,42 @@
+Graphical Display
+
+stem(X, Y);
+plot(X,Y);
+xlim([-1,9]);
+ylim([0,100]);
+hold on;
+hold off;
+xlabel('Days');
+ylabel('Price');
+title('My Dollar');
+plot(X,Y,'k'); where k is color;
+legend('stem','plot');
+
+text(2,100,'Hello');
+plot(0,-100,'ro');
+
+subplot(2,2,4);
+bar(x,y);
+
+Solve 3x+2y=5
+2x-3y=2
+
+x=-5:.1:5;
+grid on;
+
+stem(x,y1,'LineWidth',2)
+
+mean();
+
+1.Write a script for calculating the mean of a random vector
+(1x1000) and compare with the system defined max() and min();
+
+2. Write a script for calculating the median of a random vector
+(1x1000) and compare with the system defined median();
+
+3. Write a script for calculating the standard deviation 
+of a random vector (1x1000) and compare with the 
+system defined std();
+
+4. y=-x^2-10x+6 find(x)[-10,10] where y has the max value
+Display using plot with proper label.

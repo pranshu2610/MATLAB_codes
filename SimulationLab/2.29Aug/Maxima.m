@@ -1,0 +1,15 @@
+clear;
+close all;
+clc;
+x=-10:1:10;
+y=-x.^2-10*x+6;
+ym=max(y);
+p = [-1 -10 6-ym];
+r=roots(p);
+plot(r,ym,'ro');hold on;
+plot(x,y);hold off;
+xlabel('X');
+ylabel('Y');
+title('Expression Graph');
+str='Point of Maxima';
+text(-5,31,'\leftarrow Point of Maxima');

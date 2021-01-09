@@ -1,0 +1,23 @@
+on or before 20 OCT 2020 ALL 5 EXPERIMENTS
+
+awgn(x,0)//inbuild cmd to add additivie white noise
+0 is SNR S/N=1
+x=real 
+n=sqrt(control power)randn(1,length(x)) (original but use awgn(x,0))
+n=sqrt(control power)randn(1,length(x)) + jrandn(i,L)) (for imaginary random nos)
+
+received signal
+ho(t) = Po(Tb-t)      positive pulse
+h1(t) = P1(Tb-t)      negative pulse
+
+y=x+noise
+y0=y over 0 to Tb
+y1=y over Tb to 2Tb
+y2=y over 2Tb to 3Tb
+
+ro = yo * h0
+r1 = y0 * h1
+
+
+bn and rn
+reconstructed signal contain error or not by bitwise XOR(bn,rn)

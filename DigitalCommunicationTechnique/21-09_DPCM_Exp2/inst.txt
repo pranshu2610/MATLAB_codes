@@ -1,0 +1,2 @@
+dpcm endoing and decoding
+make 2 seperate assignment

@@ -1,0 +1,35 @@
+title of the eperiment (not aim)
+theory - mathematical formulas, block diagram
+matlab code
+results
+conclusion (optional)
+
+document via pdf or word file
+
+function of wave and proper descriptions of each figure,
+which type of continuous signal? define
+explain proper mapping in PCM modulation
+
+%% LPF
+t1=0.001:0.5;
+Ts=0.01;
+fc=25;
+yr=zeros(1,length(t1));
+for s=0:Ts:0.5
+    yt=[];
+    for k=t1
+        if k == s
+            y1=Ts*2*fc;
+        else
+            y1=Ts*sin(2*pi*fc*(k-s))/(pi*(k-s));
+        end
+        yt=[yt, y1];
+    end
+    ind=round(s/Ts)+1;
+%     yr=yr+yq(ind).*yt;
+    yr = yr + yq(ind).*yt;
+    figure(2)
+    plot(t1,x(ind).*yt); hold on; grid on;
+end
+figure(3)
+plot(t1,yr,'r'); hold on; grid on;

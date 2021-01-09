@@ -1,0 +1,38 @@
+clears: all the text from the Command Window
+pwd		: Identify current folder
+cmd		: Remove items from workspace, freeing up system memory
+clc		:
+
+rand(a, b)	: a x b matrix with rand elements
+a'		: Transpose
+c=a.^2		: Dot operator
+a(i,j)		: Aij element of matrix
+a:b		: All num from a to b
+b:-1:a		: Decrement from b to a
+a(i,1:3)	: i row elements from col 1 to col 3
+length(a)	: Max length bw row or col
+numel(a)	: 
+X(a:b;c:d)	:
+round(25.6)	: 26
+floor(25.6)	: GIF
+ceil()
+b(:;3)		: Select total 3rd col
+n=a+1i*b	: a+bi complex num
+abs()
+real()
+imag()
+>,>=,<,<=
+a>50 & a<60
+a=input("Enter num :: ")
+if() elseif() else()end
+for end
+while end
+
+A1 Enter value 1 to 50 even and odd no and prime save in 3 dif variables
+A2 Recurring Deposit Calculator using MatLab
+	Amount
+	Interest
+	Month
+	Every interest month should
+	
+c116009@iiit-bh.ac.in

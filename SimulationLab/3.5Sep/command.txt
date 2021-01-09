@@ -1,0 +1,12 @@
+Draw a sphere. Asking User an input for centre coordinates.
+Draw a cube. asking user an input for centre coordinates.
+
+Fun_sin(A,fc,ts,phi,d)
+fc=freq
+ts= sampling time
+phi = phase
+d =duration
+
+4 subgraphs with different A fc ts phi d
+
+Triangular Wave in y and x parameters

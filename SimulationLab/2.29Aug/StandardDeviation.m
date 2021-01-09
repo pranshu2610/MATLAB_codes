@@ -1,0 +1,13 @@
+clear;
+close all;
+clc;
+A = round(rand(1,1000)*100);
+M=mean(A);
+A1=A-M;
+A2=A1.^2;
+D=sum(A2);
+D=D/numel(A);
+SD=sqrt(D);
+disp(['My Standard Dev. Ans ' num2str(SD)]);
+SD2=std(A);
+disp(['Inbuild Standard Dev. Ans ' num2str(SD2)]);
